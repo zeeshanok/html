@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script>
+        function heck() {
+            var text = document.getElementById('heck');
+            if (text.innerHTML == 'H*ck') {
+                text.innerHTML = 'Heck';
+            } else if (text.innerHTML = 'Heck') {
+                text.innerHTML = 'H*ck';
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <button id="heck" onclick="heck()">
+        Heck
+    </button>
+</body>
+
+</html>

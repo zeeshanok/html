@@ -1,0 +1,20 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+    background: rgb(44, 0, 71);
+    border: 2px solid rgb(44, 0, 71);
+    color: white;
+    border-radius: 5px;
+    font-size: 1em;
+    outline: none;
+    min-height: 40px;
+    min-width: 70px;
+    transition-duration: 0.1s;
+}
+
+button:active {
+    transform: scale(0.95);
+    background: rgb(71, 0, 116);
+}
