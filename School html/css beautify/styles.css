@@ -1,0 +1,36 @@
+body {
+    font-family: Montserrat;
+}
+
+button.button {
+    outline: none;
+    font-family: Montserrat;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 20px;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    background: aqua;
+    transition-duration: 0.1s;
+    border-radius: 5px;
+    border: none
+}
+
+button.button:hover {
+    box-shadow: 0px 0px 5px 2px rgb(170, 255, 255);
+    padding: 23px 25px;
+    margin: 17px 15px;
+}
+
+button.button:active {
+    box-shadow: none;
+    padding: 20px;
+    margin: 20px;
+    background: rgb(170, 255, 255);
+}
+
+#div {
+    margin: 20px;
+}

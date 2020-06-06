@@ -1,0 +1,42 @@
+body {
+    font-family: Montserrat;
+    background: rgb(39, 39, 39);
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+}
+
+h6 {
+    color: yellow;
+    text-align: center;
+}
+
+ul.flower li {
+    list-style-type: circle;
+}
+
+ul.hardware li {
+    list-style-type: square;
+}
+
+ul.fruit li {
+    list-style-type: disc;
+}
+
+hr {
+    width: 80%;
+    height: 6px;
+    background-color: white;
+}
+
+span.arrow {
+    font-family: Helvetica;
+}
+
+div.formula {
+    text-decoration: underline;
+    font-style: italic;
+}
