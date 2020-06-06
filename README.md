@@ -1,6 +1,6 @@
 # my-code
 
-Just all my code
+Just all my HTML
 
 This is literally nothing of importance.
 
