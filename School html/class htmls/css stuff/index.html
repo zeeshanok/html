@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css for nubs</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Give me all your personal information</h1>
+    <form>
+        <h5>Email</h5>
+        <input required placeholder="Email" type="email" name="email" id="email">
+        <br>
+        <h5>Password</h5>
+        <input required placeholder="Password" type="password" name="password" id="password">
+        <input required placeholder="Confirm Password" type="password" name="confirm-password" id="confirm-password">
+        <br>
+        <h5>How do you feel about giving me your personal information so that I can sell it to google? (write in 150 words min)</h5>
+        <textarea required name="feelings" id="feelings" cols="10" rows="5" placeholder="Remarks"></textarea>
+        <input type="checkbox" name="check" id="check" label='Yes' value="No"><label for="check">Stop Google from buying your data?</label>
+        <br>
+        <h5>Give me money?</h5>
+        <input type="radio" name="radio" id="radio-1"><label for="radio-1">AED 40</label>
+        <input type="radio" name="radio" id="radio-2"><label for="radio-2">AED 20</label>
+        <input type="radio" name="radio" id="radio-3"><label for="radio-3">AED 10</label>
+        <input type="radio" name="radio" id="radio-4"><label for="radio-4">None :(</label>
+        <br>
+        <h5>Select your favourite pizza topping (you have two choices)</h5>
+        <select name="select" id="select">
+            <option value="init">Select an option</option>
+            <option value="pepperoni">Pepperoni</option>
+            <option value="mushrooms">Mushrooms</option>
+        </select>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
