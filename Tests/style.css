@@ -1,5 +1,5 @@
 * {
-    font-family: 'Segoe UI', sans-serif;
+    font-family: 'Montserrat';
 }
 
 button {
@@ -12,9 +12,20 @@ button {
     min-height: 40px;
     min-width: 70px;
     transition-duration: 0.1s;
+    padding: 10px 20px;
+    display: flexbox;
 }
 
 button:active {
     transform: scale(0.95);
     background: rgb(71, 0, 116);
+}
+
+nav {
+    display: flex;
+    align-items: flex-end;
+    align-content: flex-end;
+    justify-content: end;
+    text-align: right;
+    width: 100%;
 }

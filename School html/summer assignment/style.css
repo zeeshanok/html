@@ -1,0 +1,127 @@
+body {
+    font-family: 'Segoe UI', 'Montserrat', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body.index {
+    background: url("https://wallpaperaccess.com/full/222675.jpg");
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    background: white;
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    top: 0px;
+}
+
+nav img {
+    height: 120px;
+    margin: 0;
+}
+
+nav a {
+    position: relative;
+    bottom: 50px;
+}
+
+nav a.media {
+    left: 1500px;
+}
+
+nav a.visitus {
+    left: 1550px;
+}
+
+nav a.contact-us {
+    left: 1600px;
+}
+
+nav a.home {
+    left: 900px;
+}
+
+a.button, input[type=submit] {
+    outline: none;
+    border: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(236, 201, 0);
+    border-radius: 10px;
+    transition-duration: 0.2s;
+}
+
+nav a:hover {
+    background-color: rgb(209, 178, 0);
+    transform: scale(0.95);
+}
+
+body.index div.body {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    text-align: center;
+}
+
+div.body {
+    padding: 10px;
+}
+
+div.body h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 7rem;
+}
+
+div.body h4 {
+    font-size: 5rem;
+    text-align: center;
+}
+
+div.body p {
+    font-size: 3rem;
+}
+
+table, table * {
+    border: 5px solid yellow;
+    padding: 10px 15px;
+}
+
+table {
+    font-size: 2rem;
+    border-collapse: collapse;
+}
+
+table th {
+    text-align: center;
+}
+
+div.body * li {
+    font-size: 2rem;
+}
+
+div.body p.address {
+    font-size: 2rem;
+}
+
+form * {
+    font-size: 1.5rem;
+}
+
+input, textarea {
+    margin: 10px;
+}
+
+input, textarea, select {
+    outline: none;
+    padding: 10px 5px;
+    border-radius: 10px;
+    border: 2px solid rgb(236, 201, 0);
+}
