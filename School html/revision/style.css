@@ -1,0 +1,28 @@
+:root {
+    font-family: sans-serif;
+}
+div.list {
+    border: 1px solid black;
+    display: inline-block;
+    padding: 10px;
+}
+
+div.list ul {
+    margin: 0;
+    padding: 0;
+}
+
+div.definitions dt{
+    font-weight: bold;
+}
+
+div.img img{
+    width: 200px;
+    height: 200px;
+    border: 3px solid rgb(5, 184, 255);
+}
+
+div.bg {
+    background-color: purple;
+    color: blue;
+}
